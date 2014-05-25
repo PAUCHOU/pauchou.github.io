@@ -1,0 +1,94 @@
+body	{
+	font-family: 'Abel', sans-serif;
+	text-align: center;
+	background-image: url(pictures/nyc.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center center;
+	color: #CCCC00;
+	position:relative;
+}
+.main-container {
+	margin:0 auto;
+	max-width:900px;
+	width:100%;
+	padding:0 0 300px 0;
+}
+div {
+  background-size: cover;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+h1 {
+	font-size: 40px;
+	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -o-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+}
+
+h2 {
+	font-size: 30px;
+	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -o-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+}
+
+p {
+	font-size: 20px;
+	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -o-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	padding: 20px 20px 20px 20px;
+	position: relatives;
+}
+
+.show-description p {
+  height: 150px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.profile {
+	height: 50%;
+	width: 50%;
+	border: 7px double #CCCC00;
+	border-radius: 7px;
+	margin: 30px 0 0 0;
+}
+.timo {
+	position:absolute;
+	top:0;
+	right:0;
+	border: 7px double #CCCC00;
+	width:20%;
+}
+.timo img {
+	width:100%;
+}
+
+.sf {
+	position:absolute;
+	bottom:0;
+	border: 7px double #CCCC00;
+	left:0;
+	width:20%;
+}
+.sf img {
+	width:100%;
+}
+.menu {
+	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -o-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	list-style:none;
+}
+.about , .experience, .contact {
+	display:none;
+}
+}
