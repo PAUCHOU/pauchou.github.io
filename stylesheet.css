@@ -91,4 +91,26 @@ p {
 .about , .experience, .contact {
 	display:none;
 }
+
+.bmw img{
+	width: 40%;
+}
+
+.lexus img{
+	width: 40%;
+}
+
+.gtr img{
+	width: 40%;
+}
+
+.carousel {
+	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -o-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	list-style:none;
+}
+.bmw , .lexus , .gtr {
+	display: none;
 }

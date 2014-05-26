@@ -12,3 +12,18 @@ $(document).ready(function() {
 		$('.contact').fadeIn();
 	});
 });
+
+$(document).ready(function() {
+	$('.bmw-toggle').on('click', function() {
+		$('.content').hide();
+		$('.bmw').fadeIn();
+	});
+	$('.lexus-toggle').on('click', function() {
+		$('.content').hide();
+		$('.lexus').fadeIn();
+	});
+	$('.gtr-toggle').on('click', function() {
+		$('.content').hide();
+		$('.gtr').fadeIn();
+	});
+});
