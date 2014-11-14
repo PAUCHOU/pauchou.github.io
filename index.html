@@ -1,65 +1,162 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-
-	<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-	<link href="/normalize.css" rel="stylesheet">
-	<title>Kevin Chou</title>
-	<link rel="stylesheet" href="stylesheet.css" type="text/css" media="screen" title="no title" charset="utf-8">
-	<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
-	<script src="main.js" type="text/javascript" charset="utf-8"></script>
+  <meta charset="UTF-8">
+  <title>Kevin Chou</title>
+  <link rel="stylesheet" href="foundation-5.4.6/css/foundation.css" />
+  <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.css">
+  <link href="stylesheet.css" type="text/css" rel="stylesheet" />
+  <script src="foundation-5.4.6/js/vendor/modernizr.js"></script>
+  <script src="js/foundation/foundation.topbar.js"></script>
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/foundation.min.js"></script>
+  <script src="js/foundation/foundation.js"></script>
+  <script src="js/foundation/foundation.interchange.js"></script>
+  <script src='bower_components/scrollReveal.js/dist/scrollReveal.js'></script>
+  <script src="//use.typekit.net/sog8lfz.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
 </head>
-
 <body>
-	<figure class="timo"> 
-		<img src="https://raw.githubusercontent.com/PAUCHOU/pauchou.github.io/master/Pictures/timo.JPG">
-		<figcaption>My cat Timo</figcaption>
-	</figure>
-	
-	<figure class="sf"> 
-		<img src="https://raw.githubusercontent.com/PAUCHOU/pauchou.github.io/master/Pictures/san_francisco.png">
-		<figcaption>San Francisco</figcaption>
-	</figure>
-	
-	<div class="main-container">
-		<img class="profile" src="https://raw.githubusercontent.com/PAUCHOU/pauchou.github.io/master/Pictures/kevin.jpg">
-		<h1>Hi! I'm Kevin</h1>
-		<h2>super excited to get started on programming!</h2>
-		
-		<ul class="menu">
-			<li class="about-toggle">ABOUT</li>
-			<li class="experience-toggle">EXPERIENCE</li>
-			<li class="contact-toggle">CONTACT</li>
-		</ul>
-		<div class="about content">
-			<p>I moved to the Bay Area from New York only about 8 months ago.  I moved here to get started on my job as an inside sales at a small company that supplys metal parts to different companies.  I'm a pretty friendly guy, I love to make new friends and people find me easy to be around with. I value my friends and family a lot because I know they will always be there for me. During my free time, I like to go out and explore the bay, from Napa to Santa Cruz, I enjoy every bit of it.  Occasionally, I like to stay in and enjoy the time with myself, surf the web and play some video games with my friends back home.</p>
-		</div>
+  <div class="container">
+    <div class="sticky">
+      <div class="contain-to-grid fixed">
+        <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
+          <ul class="title-area">
+            <li class="name">
+              <h1><a href="#section1">Kevin Chou</a></h1>
+            </li>
+          </ul>
+          <section class="top-bar-section">
+            <ul class="right">
+              <li class="divider"></li>
+              <li class="not-click"><a class="topbut" id="topbut" href="#section2">Skills</a></li>
+              <li class="divider"></li>
+              <li class="not-click"><a class="topbut" id="topbut" href="#section3">Portfolio</a></li>
+              <li class="divider"></li>
+              <li class="not-click"><a class="topbut" id="topbut" href="#section4">Education</a></li>
+              <li class="divider"></li>
+            </ul>
+          </section>
+        </nav>
+      </div>
+    </div>
 
-		<div class="experience content">
-			<p>Currently, I am an inside sales at Advanced Metal Solutions which supplys cutomized metal parts.  My job there is to provide excellent customer service and follow up with factories to make sure everything goes as accordingly.  I also have to communicate with customer to help them find what they are looking for, including the design of the part and suggest best process to manufacture the product.  At last, once everything is settled down, I have to ensure the quality of the part remain consistant once we go on mass production.  I've also interned as an industrial engineer at two different companies that manufactures very different products. One of the company, Bo-An Inc, is a company that assembles bicycles and scooters in China.  I was responsible in making sure that the assembly line was functioning smoothely and efficiently as well as communicating between the factory and client. Another company I've interned at was Chimei-Innolux, a company that manufactures flat-panels that goes on television and smartphones.  My job there was to create a equipment list to keep track of all the machines the company currently possess in the entire factory.
-			</p>
-		</div>
+    <section class="sectiongrey" id="section1">
+    <div class="row" id="about-row">
+      <div class="large-6 columns">
+        <div id="profile">
+        </div>
+      </div>
+      <div class="large-6 columns">
+        <h3 class="aboutme">Hello</h3>
+        <h4 class="aboutme">I'm a full stack web developer from NY</h4>
+        <p>Just finished General Assembly's web immersive development program and super excited to join the coding community!
+        </p>
+        <p>you can find me at a gym or exploring NYC when I'm not programming.</p>
+         <ul class="social-icons">
+          <li>
+            <a  href="https://www.linkedin.com/in/kevinchou723" target="_blank"><i id="linkedinicon" class="fa fa-linkedin-square fa-3x">
+            </i></a>
+          </li>
+          <li>
+            <a href="https://github.com/PAUCHOU" target="_blank">
+            <i id="githubicon" class="fa fa-github fa-3x"></i></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/kevin.chou.0723" target="_blank">
+            <i id="facebookicon" class="fa fa-facebook-square fa-3x"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </section>
 
-		<div class="contact content">
-			<p>
-			Email: kchou723@gmail.com<br />
-			Phone: 516-376-9388<br />
-			GitHub: pauchou.github.io</p>
-		</div>
 
-		<ul class="carousel">
-			<li class="bmw-toggle">BMW</li>
-			<li class="lexus-toggle">LEXUS</li>
-			<li class="gtr-toggle">GTR</li>
-		</ul>
+    <section class="section" id="section2" >
+      <div class="row" id="row2">
+        <h2>Skills</h2>
+        <div class="large-4 columns">
+          <ul>
+            <li class="skills"><img src="foundation-5.4.6/img/HTML5.png" id="icons"> HTML5</li>
+            <li class="skills"><img src="foundation-5.4.6/img/css3.png" id="icons"> CSS3</li>
+            <li class="skills"><img src="foundation-5.4.6/img/node.jpeg" id="icons"> Node.js</li>
+            <li class="skills"><img src="foundation-5.4.6/img/square.png" id="icons"> Angular.js</li>
+          </ul>
+        </div>
+        <div class="large-4 columns">
+          <ul>
+            <li class="skills"><img src="foundation-5.4.6/img/ruby.png" id="icons"> Ruby</li>
+            <li class="skills"><img src="foundation-5.4.6/img/rails.png" id="icons"> Rails</li>
+            <li class="skills"><img src="foundation-5.4.6/img/javascript.png" id="icons"> Javascript</li>
+            <li class="skills"><img src="foundation-5.4.6/img/coffeescript.png" id="icons"> CoffeeScript</li>
+          </ul>
+        </div>
+        <div class="large-4 columns">
+          <ul>
+            <li class="skills"><img src="foundation-5.4.6/img/ajax.png" id="icons"> AJAX</li>
+            <li class="skills"><img src="foundation-5.4.6/img/pg.png" id="icons"> PostgreSQL</li>
+            <li class="skills"><img src="foundation-5.4.6/img/bootstrap.jpeg" id="icons"> Bootstrap</li>
+            <li class="skills"><img src="foundation-5.4.6/img/jquery.png" id="icons"> jQuery</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-		<div class="bmw content">
-			<img src="https://raw.githubusercontent.com/PAUCHOU/pauchou.github.io/master/pictures/bmw.jpg">
-		</div>
-		<div class="lexus content">
-			<img src="https://github.com/PAUCHOU/pauchou.github.io/blob/master/pictures/lexus.jpg">
-		</div>
-		<div class="gtr content">
-			<img src="https://github.com/PAUCHOU/pauchou.github.io/blob/master/pictures/gtr.jpg">
-		</div>
-	</div>
+
+    <section class="sectiongrey" id="section3" data-sr="enter bottom move 20px over 0.6s">
+      <div class="row" id="row3">
+        <h2>Portfolio</h2>
+        <ul>
+          <li class="large-4 columns">
+            <a href="http://searchebay.herokuapp.com" target="_blank"><img class="projectimg" src="foundation-5.4.6/img/searchebay.png"></a>
+            <br><br>
+            <h5>SearchEbay</h5>
+            <p>Look up your favorite items on Ebay.  You can save the items you like when you sign up for a personal account. (Node.js)</p>
+          </li>
+          <li class="large-4 columns">
+            <a href="http://surgeprotector.herokuapp.com" target="_blank"><img class="projectimg"src="foundation-5.4.6/img/surgeprotector.png"></a>
+            <br><br>
+            <h5>SurgeProtector</h5>
+            <p>Track historic Uber surge multipliers by sorting throught Uber type, day of the week, and City! Plan your trip ahead by looking through the surges. (Rails)</p>
+          </li>
+          <li class="large-4 columns">
+            <a href="http://tweesta.herokuapp.com" target="_blank"><img class="projectimg" src="foundation-5.4.6/img/tweesta.png"></a>
+            <br><br>
+            <h5>Tweesta</h5>
+            <p>Explore the world around you and how others perceive the same thing but differ in expression through tweets and photos. Search and see photos and tweets with the same hashtag. (Angular.js/Rails)</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section class="section" id="section4" data-sr="wait 3s enter bottom move 20px over 0.6s">
+      <div class="row" id="row4">
+        <h2>Education</h2>
+        <div class="large-4 columns">
+          <img class="galogo logo" src="foundation-5.4.6/img/galogo.png" >
+        </div>
+        <div class="large-4 columns">
+          <h4>General Assembly</h4>
+          <p>Web Development Immersive Program.  12 week intensive training course to become a full stack developer.</p>
+          <h4>Binghamton University</h4>
+          <p>BS, Industrial Systems Engineering</p>
+        </div>
+        <div class="large-4 columns">
+          <img class="binglogo logo"src="foundation-5.4.6/img/Binghamton_Seal.gif">
+        </div>
+      </div>
+    </section>
+
+    <script>
+      $(document).foundation();
+    </script>
+    <script>
+      window.sr = new scrollReveal();
+    </script>
+
+  </div>
+
 </body>
+</html>

@@ -1,116 +1,143 @@
-body	{
-	font-family: 'Abel', sans-serif;
-	text-align: center;
-	background-image: url(https://raw.githubusercontent.com/PAUCHOU/pauchou.github.io/master/Pictures/NYC.jpg);
-	background-repeat:no-repeat;
-	background-size: cover;
-	background-position: center center;
-	color: #CCCC00;
-	position:relative;
-}
-.main-container {
-	margin:0 auto;
-	max-width:900px;
-	width:100%;
-	padding:0 0 300px 0;
-}
-div {
-  background-size: cover;
-  margin: 40px 0 0 0;
-  border-radius: 12px;
-}
-h1 {
-	font-size: 40px;
-	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-	background: -o-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+
+
+body {
+  font-family: Josefin Sans, sans-serif;
 }
 
 h2 {
-	font-size: 30px;
-	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-	background: -o-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  text-align:center;
+  padding:0 0 1em 0;
 }
 
-p {
-	font-size: 20px;
-	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-	background: -o-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-	padding: 20px 20px 20px 20px;
-	position: relatives;
+h1 {
+  font-weight: bold;
+  font-family: Josefin Sans, sans-serif;
+  text-align: center;
+}
+li {
+  list-style-type: none;
 }
 
-.show-description p {
-  height: 150px;
+a {
+  color: white;
 }
 
-.show-description small {
-  opacity: 1;
+i:hover {
+  -webkit-transition-duration: 1s;
+  -webkit-transform: rotateX(-360deg);
+  transform: rotateX(-360deg);
 }
 
-.profile {
-	height: 50%;
-	width: 50%;
-	border: 7px double #CCCC00;
-	border-radius: 7px;
-	margin: 30px 0 0 0;
-}
-.timo {
-	position:absolute;
-	top:0;
-	right:0;
-	border: 7px double #CCCC00;
-	width:20%;
-}
-.timo img {
-	width:100%;
+.contain-to-grid{
+  background-color: black;
 }
 
-.sf {
-	position:absolute;
-	bottom:0;
-	border: 7px double #CCCC00;
-	left:0;
-	width:20%;
-}
-.sf img {
-	width:100%;
-}
-.menu {
-	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-	background: -o-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-	list-style:none;
-}
-.about , .experience, .contact {
-	display:none;
+.top-bar{
+  background-color: black;
 }
 
-.bmw img{
-	width: 40%;
+#topbut:hover{
+  background-color: rgb(51, 54, 56);
 }
 
-.lexus img{
-	width: 40%;
+#topbut{
+  background-color: black;
 }
 
-.gtr img{
-	width: 40%;
+.skills {
+  margin: 0 2.5em 2em 2.5em;
+  font-size: 130%;
 }
 
-.carousel {
-	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-	background: -o-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-	list-style:none;
+.row{
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
-.bmw , .lexus , .gtr {
-	display: none;
+#about-row{
+  color: white;
+  padding:10% 0;
+}
+#about-row p {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size:14px;
+}
+.aboutme{
+  color:white;
+}
+.social-icons {
+  padding:0;
+  margin:0;
+}
+.social-icons li {
+  display:inline-block;
+  padding:0 10px;
+}
+.social-icons li:first-child {
+  padding:0 10px 0 0;
+}
+
+.projectimg {
+  border: #e1e1e1 solid 1px;
+
+}
+
+.sectiongrey{
+   background-color: rgb(235, 235, 235);
+}
+
+#section1{
+color: white;
+}
+
+#facebookicon:hover {
+  color: rgb(78, 111, 178);
+}
+
+#linkedinicon:hover {
+  color: rgb(91, 183, 216);
+}
+
+#githubicon:hover {
+  color: rgb(155, 59, 206);
+}
+
+
+#icons{
+  height: 25px;
+  width: 25px;
+}
+#section1{
+  background-size: cover;
+  background-image: url(foundation-5.4.6/img/work-desk-14949.jpg);
+}
+
+
+
+#profile {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 10px 0 0 0;
+  margin:0 auto;
+  width: 300px;
+  height:300px;
+  overflow:hidden;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  background-image: url(foundation-5.4.6/img/image.jpeg);
+  background-size: cover;
+}
+#profile img {
+  width:100%;
+}
+.logo {
+  display: block;
+  max-width: 200px;
+  margin:0 auto;
 }
