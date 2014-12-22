@@ -103,6 +103,10 @@ color: white;
   color: rgb(155, 59, 206);
 }
 
+#emailicon:hover {
+  color: rgb(232, 44, 12);
+}
+
 
 #icons{
   height: 25px;
