@@ -8,13 +8,13 @@
   <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.css">
   <link href="stylesheet.css" type="text/css" rel="stylesheet" />
   <script src="foundation-5.4.6/js/vendor/modernizr.js"></script>
-  <script src="js/foundation/foundation.topbar.js"></script>
-  <script src="js/vendor/jquery.js"></script>
-  <script src="js/foundation.min.js"></script>
-  <script src="js/foundation/foundation.js"></script>
-  <script src="js/foundation/foundation.interchange.js"></script>
+  <script src="foundation-5.4.6/js/vendor/jquery.js"></script>
+  <script src="foundation-5.4.6/js/foundation.min.js"></script>
+  <script src="foundation-5.4.6/js/foundation/foundation.js"></script>
+  <script src="foundation-5.4.6/js/foundation/foundation.interchange.js"></script>
+  <script src="foundation-5.4.6/js/foundation/foundation.topbar.js"></script>
   <script src='bower_components/scrollReveal.js/dist/scrollReveal.js'></script>
-  <script src="//use.typekit.net/sog8lfz.js"></script>
+  <script src="http://use.typekit.net/sog8lfz.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
@@ -44,36 +44,38 @@
 
     <section class="sectiongrey" id="section1">
     <div class="row" id="about-row">
-      <div class="large-6 columns">
-        <div id="profile">
+      <panel>
+          <div class="small-12 large-6 columns">
+            <div id="profile">
+            </div>
+          </div>
+          <div class="small-11 large-6 columns">
+            <h3 class="aboutme">Hello</h3>
+            <h4 class="aboutme">I'm a full stack web developer from NY</h4>
+            <p>Just finished General Assembly's web immersive development program and super excited to join the coding community!
+            </p>
+            <p>you can find me at a gym or exploring NYC when I'm not programming.</p>
+             <ul class="social-icons">
+              <li>
+                <a  href="https://www.linkedin.com/in/kevinchou723" target="_blank"><i id="linkedinicon" class="fa fa-linkedin-square fa-3x">
+                </i></a>
+              </li>
+              <li>
+                <a href="https://github.com/PAUCHOU" target="_blank">
+                <i id="githubicon" class="fa fa-github fa-3x"></i></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/kevin.chou.0723" target="_blank">
+                <i id="facebookicon" class="fa fa-facebook-square fa-3x"></i></a>
+              </li>
+              <li>
+                <a href="mailto:kchou723@gmail.com">
+                <i id="emailicon" class="fa fa-envelope fa-3x"></i></a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="large-6 columns">
-        <h3 class="aboutme">Hello</h3>
-        <h4 class="aboutme">I'm a full stack web developer from NY</h4>
-        <p>Just finished General Assembly's web immersive development program and super excited to join the coding community!
-        </p>
-        <p>you can find me at a gym or exploring NYC when I'm not programming.</p>
-         <ul class="social-icons">
-          <li>
-            <a  href="https://www.linkedin.com/in/kevinchou723" target="_blank"><i id="linkedinicon" class="fa fa-linkedin-square fa-3x">
-            </i></a>
-          </li>
-          <li>
-            <a href="https://github.com/PAUCHOU" target="_blank">
-            <i id="githubicon" class="fa fa-github fa-3x"></i></a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/kevin.chou.0723" target="_blank">
-            <i id="facebookicon" class="fa fa-facebook-square fa-3x"></i></a>
-          </li>
-          <li>
-            <a href="mailto:kchou723@gmail.com">
-            <i id="emailicon" class="fa fa-envelope fa-3x"></i></a>
-          </li>
-        </ul>
-      </div>
-    </div>
+      </panel>
     </section>
 
 
@@ -111,26 +113,26 @@
     <section class="sectiongrey" id="section3" data-sr="enter bottom move 20px over 0.6s">
       <div class="row" id="row3">
         <h2>Portfolio</h2>
-        <ul>
-          <li class="large-4 columns">
-            <a href="http://searchebay.herokuapp.com" target="_blank"><img class="projectimg" src="foundation-5.4.6/img/searchebay.png"></a>
-            <br><br>
-            <h5>SearchEbay</h5>
-            <p>Look up your favorite items on Ebay.  You can save the items you like when you sign up for a personal account. (Node.js)</p>
-          </li>
-          <li class="large-4 columns">
-            <a href="http://surgeprotector.herokuapp.com" target="_blank"><img class="projectimg"src="foundation-5.4.6/img/surgeprotector.png"></a>
-            <br><br>
-            <h5>SurgeProtector</h5>
-            <p>Track historic Uber surge multipliers by sorting throught Uber type, day of the week, and City! Plan your trip ahead by looking through the surges. (Rails)</p>
-          </li>
-          <li class="large-4 columns">
-            <a href="http://tweesta.herokuapp.com" target="_blank"><img class="projectimg" src="foundation-5.4.6/img/tweesta.png"></a>
-            <br><br>
-            <h5>Tweesta</h5>
-            <p>Explore the world around you and how others perceive the same thing but differ in expression through tweets and photos. Search and see photos and tweets with the same hashtag. (Angular.js/Rails)</p>
-          </li>
-        </ul>
+        <div class="small-12 large-4 columns">
+          <a href="http://searchebay.herokuapp.com" target="_blank"><img class="projectimg" src="foundation-5.4.6/img/searchebay.png"></a>
+          <br><br>
+          <h5>SearchEbay</h5>
+          <p>Look up your favorite items on Ebay.  You can save the items you like when you sign up for a personal account. (Node.js)</p>
+        </div>
+        <div class="small-12 large-4 columns">
+          <a href="http://surgeprotector.herokuapp.com" target="_blank"><img class="projectimg"src="foundation-5.4.6/img/surgeprotector.png"></a>
+          <br><br>
+          <h5>SurgeProtector</h5>
+          <p>
+          Track historic Uber surge multipliers by sorting throught Uber type, day of the week, and City! Plan your trip ahead by looking through the surges. (Rails)
+          </p>
+        </div>
+        <div class="small-12 large-4 columns">
+          <a href="http://tweesta.herokuapp.com" target="_blank"><img class="projectimg" src="foundation-5.4.6/img/tweesta.png"></a>
+          <br><br>
+          <h5>Tweesta</h5>
+          <p>Explore the world around you and how others perceive the same thing but differ in expression through tweets and photos. Search and see photos and tweets with the same hashtag. (Angular.js/Rails)</p>
+        </div>
       </div>
     </section>
 
