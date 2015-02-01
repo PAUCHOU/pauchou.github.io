@@ -1,96 +1,194 @@
 
-
 body {
-  font-family: Josefin Sans, sans-serif;
+  font-family:'proxima-nova',Helvetica,Arial,sans-serif;
+  font-weight:400;
+  background-color:rgba(0,0,0,0.02);
 }
 
-h2 {
+.button {
+  font-family:'proxima-nova',Helvetica,Arial,sans-serif;
+}
+
+.button-group li {
+  padding-top:5%;
+}
+
+.button-group a {
+  color:rgba(0,0,0,1);
+  background-color:transparent;
+}
+
+.button-group a:hover {
+  color:rgba(0,0,0,0.4);
+  background-color:transparent;
+}
+
+.button-group {
+  float:none;
   text-align:center;
-  padding:0 0 1em 0;
 }
 
-h1 {
-  font-weight: bold;
-  font-family: Josefin Sans, sans-serif;
+@media only screen and (min-width: 40.063em) {
+  .button-group {
+    float:right;
+  }
+}
+
+.namelogo {
+  padding:20px 10px 0px 10px;
+}
+
+@media only screen and (min-width: 40.063em) {
+  .namelogo{
+    padding-bottom:20px;
+  }
+}
+
+.namelogo h1 {
+  font-size:1.5em;
+  font-weight:600;
+  text-align:center;
+}
+
+@media only screen and (min-width: 40.063em) {
+  .namelogo h1 {
+    font-size:24px;
+    text-align:left;
+  }
+}
+
+@media only screen and (min-width: 64.063em) {
+  .namelogo h1 {
+    font-size:24px;
+    text-align:left;
+  }
+}
+
+.headshot {
   text-align: center;
 }
-li {
+
+.hero {
+  background:url(foundation-5.5.0/img/pointy-building.jpeg);
+  background-size:cover;
+  box-shadow:inset 0px 0px 0 2000px rgba(0,0,0,0.15);
+  height:80%;
+}
+
+.intro-text{
+  padding-top:40%;
+  color:rgba(255,255,255,1);
+  text-align:center;
+}
+
+@media only screen and (min-width: 40.063em) {
+  .intro-text{
+    padding-top:25%;
+  }
+}
+
+@media only screen and (min-width: 64.063em) {
+  .intro-text{
+    padding-top:18%;
+  }
+}
+
+.intro-text p{
+  font-family:"proxima-nova",sans-serif;;
+  font-size:44px;
+}
+
+.about{
+  padding:50px 0 0 0;
+}
+
+.about p{
+  font-weight: lighter;
+}
+
+.portfolio,.contact{
+  padding:15px 0 0 0;
+}
+
+.about img {
+  width:250px;
+  height:250px;
+  border-radius:150px;
+  -webkit-border-radius:150px;
+  -moz-border-radius:150px;
+}
+
+.skills h3 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.skills ul {
+  margin: 0 0;
+}
+
+.skills li {
+  padding: 5px 0;
+  list-style-type: none;
+  text-align: center;
+  font-weight: lighter;
+}
+
+
+.portfolio img:hover{
+  opacity:0.5;
+  -webkit-transition:0.3s ease;
+  -moz-transition:0.3s ease;-ms-transition:0.3s ease;
+  -o-transition:0.3s ease;transition:0.3s ease;
+}
+
+.portfolio h3 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.portfolio li {
+  margin: 0;
+  overflow:hidden;
+}
+
+.portfolio h5 {
+  padding: 20px 0 0 0;
+}
+
+.portfolio p {
+  font-weight: lighter
+}
+
+
+hr {
+  border:0;
+  margin: 50px;
+  height:1px;
+  background-image:-webkit-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+  background-image:-moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+  background-image:-ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+  background-image:-o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+  opacity:0.8;
+}
+
+.contact h3{
+  text-align: center;
+}
+
+.contact ul {
+  text-align: center;
+  margin:0;
+}
+
+.contact li {
+  display: inline-block;
   list-style-type: none;
 }
 
-a {
-  color: white;
-}
-
-i:hover {
-  -webkit-transition-duration: 1s;
-  -webkit-transform: rotateX(-360deg);
-  transform: rotateX(-360deg);
-}
-
-.contain-to-grid{
-  background-color: black;
-}
-
-.top-bar{
-  background-color: black;
-}
-
-#topbut:hover{
-  background-color: rgb(51, 54, 56);
-}
-
-#topbut{
-  background-color: black;
-}
-
-.skills {
-  margin: 0 2.5em 2em 2.5em;
-  font-size: 130%;
-}
-
-.row{
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-#about-row{
-  color: white;
-  padding:10% 0;
-}
-#about-row p {
-  font-family: "proxima-nova",sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size:14px;
-}
-.aboutme{
-  color:white;
-}
-.social-icons {
-  padding:0;
-  margin:0;
-}
-.social-icons li {
-  display:inline-block;
-  padding:0 10px;
-}
-.social-icons li:first-child {
-  padding:0 10px 0 0;
-}
-
-.projectimg {
-  border: #e1e1e1 solid 1px;
-  height: 170px;
-  width:340px;
-
-}
-
-.sectiongrey{
-   background-color: rgb(235, 235, 235);
-}
-
-#section1{
-color: white;
+i {
+  color: black;
+  padding: 23px;
 }
 
 #facebookicon:hover {
@@ -109,41 +207,7 @@ color: white;
   color: rgb(232, 44, 12);
 }
 
-
-#icons{
-  height: 25px;
-  width: 25px;
-}
-#section1{
-  background-size: cover;
-  background-image: url(foundation-5.4.6/img/work-desk-14949.jpg);
+footer{
+  padding:80px 0 10px 0;
 }
 
-
-
-#profile {
-  border: 2px solid white;
-  border-radius: 50%;
-  padding: 10px 0 0 0;
-  margin:0 auto;
-  width: 300px;
-  height:300px;
-  overflow:hidden;
-  -webkit-border-radius: 150px;
-  -moz-border-radius: 150px;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
-  background-image: url(foundation-5.4.6/img/image.jpeg);
-  background-size: cover;
-}
-#profile img {
-  width:100%;
-}
-.logo {
-  display: block;
-  max-width: 200px;
-  margin:0 auto;
-}
