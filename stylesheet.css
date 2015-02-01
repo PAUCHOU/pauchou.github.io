@@ -2,7 +2,19 @@
 body {
   font-family:'proxima-nova',Helvetica,Arial,sans-serif;
   font-weight:400;
-  background-color:rgba(0,0,0,0.02);
+  background-color:rgba(255,255,255,0.95);
+}
+
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background:rgba(255,255,255,0.95);
+  z-index: 9999999;
+}
+.hero {
+  margin-top: 90px;
 }
 
 .button {
@@ -48,6 +60,7 @@ body {
   font-size:1.5em;
   font-weight:600;
   text-align:center;
+  font-family:'proxima-nova',Helvetica,Arial,sans-serif;
 }
 
 @media only screen and (min-width: 40.063em) {
@@ -95,14 +108,21 @@ body {
 
 .intro-text p{
   font-family:"proxima-nova",sans-serif;;
-  font-size:44px;
+  font-size:25px;
+  letter-spacing: 0.05em;
+  font-weight: lighter;
 }
 
 .about{
   padding:50px 0 0 0;
 }
 
-.about p{
+.about h3{
+  letter-spacing: 0.2em;
+  font-family:"proxima-nova",sans-serif;
+}
+
+.about p {
   font-weight: lighter;
 }
 
@@ -121,6 +141,8 @@ body {
 .skills h3 {
   text-align: center;
   margin-bottom: 25px;
+  font-family:'proxima-nova',Helvetica,Arial,sans-serif;
+  letter-spacing: 0.2em;
 }
 
 .skills ul {
@@ -145,6 +167,8 @@ body {
 .portfolio h3 {
   text-align: center;
   margin-bottom: 25px;
+  font-family:'proxima-nova',Helvetica,Arial,sans-serif;
+  letter-spacing: 0.2em;
 }
 
 .portfolio li {
@@ -174,6 +198,8 @@ hr {
 
 .contact h3{
   text-align: center;
+  letter-spacing: 0.2em;
+  font-family:'proxima-nova',Helvetica,Arial,sans-serif;
 }
 
 .contact ul {
