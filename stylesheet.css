@@ -90,9 +90,9 @@ body {
   font-weight:300;
   text-transform: uppercase;
   letter-spacing: 0.25em;
-  text-align:center;
   font-family:'proxima-nova',Helvetica,Arial,sans-serif;
   margin: 0;
+  padding-left: 10px;
 }
 
 @media only screen and (min-width: 40.063em) {
@@ -251,9 +251,19 @@ hr {
   list-style-type: none;
 }
 
-i {
+.contact i {
   color: black;
   padding: 20px;
+}
+
+.mobile-toggle i{
+  padding:20px;
+}
+
+@media only screen and (max-width: 40.063em) {
+  .contact i {
+    padding:10px;
+  }
 }
 
 #facebookicon:hover {
