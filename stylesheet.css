@@ -26,13 +26,37 @@ body {
       position: fixed;
       top:0;
       right:0;
+      z-index: 99999;
     }
 
     .button-group{
-      display: none;
+      display: block;
+      position: fixed;
+      top: -100px;
+      left: 0px;
+      right: 0px;
+      z-index: -99;
     }
+
+    .namelogo {
+      background: white;
+    }
+
     .button-group.active{
       display: block;
+      position: fixed;
+      top: 73px;
+      color:rgba(0,0,0,1);
+      background: white;
+      font-family:'proxima-nova',Helvetica,Arial,sans-serif;
+      font-weight: lighter;
+      margin:0;
+      text-align: center;
+      transition: all 0.3s ease-in-out;
+      -webkit-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -ms-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
     }
 }
 
