@@ -21,6 +21,7 @@ body {
 
 @media only screen and (max-width: 40.063em) {
     .mobile-toggle{
+      cursor: pointer;
       display: block;
       position: fixed;
       top:0;
@@ -34,8 +35,6 @@ body {
       display: block;
     }
 }
-
-
 
 .hero {
   margin-top: 73px;
@@ -108,10 +107,6 @@ body {
     text-align:left;
   }
 }
-
-/*.headshot {
-  text-align: center;
-}*/
 
 .hero {
   background:url(foundation-5.5.0/img/pointy-building.jpeg);
